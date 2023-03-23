@@ -1,13 +1,17 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
 .App {
   display: grid;
-  grid-template-rows: 25fr 1fr;
+  grid-template-rows: 2fr 88vh 2fr;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background: #333;
+  padding: 0 10px;
 }
 
 .card {

@@ -6,10 +6,18 @@ function App() {
 
   return (
     <div className='App'>
-      <main>
-        <h1>Classify</h1>
-      </main>
-      <footer>Elior D, Lavi D, Ronnen P</footer>
+      <nav
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          justifyContent: 'space-between',
+        }}
+      >
+        <p>Classify Logo</p>
+        <p>Login</p>
+      </nav>
+      <main></main>
+      <footer>&copy; Elior D, Lavi D, Ronnen P</footer>
     </div>
   );
 }
