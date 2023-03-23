@@ -6,18 +6,14 @@ function App() {
 
   return (
     <div className='App'>
-      <nav
-        style={{
-          display: 'flex',
-          flexDirection: 'row',
-          justifyContent: 'space-between',
-        }}
-      >
+      <nav className='flex justify-between items-center	 flex-row bg-[#333] px-4'>
         <p>Classify Logo</p>
         <p>Login</p>
       </nav>
       <main></main>
-      <footer>&copy; Elior D, Lavi D, Ronnen P</footer>
+      <footer className='flex items-center justify-center'>
+        &copy; Elior D, Lavi D, Ronnen P
+      </footer>
     </div>
   );
 }
